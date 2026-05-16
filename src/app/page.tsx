@@ -48,7 +48,7 @@ export default function Home() {
               </span>
               <div>
                 <div style={{ fontSize: 24, fontWeight: 800, lineHeight: 1 }}>JaloPermit</div>
-                
+                <div style={{ opacity: 0.82, fontSize: 13 }}>OS/OW permit translator</div>
               </div>
             </div>
 
@@ -85,8 +85,7 @@ const heroStyle: React.CSSProperties = {
   backgroundImage: "linear-gradient(rgba(8,16,30,.55), rgba(8,16,30,.55)), url('/hero-bg.jpg')",
   backgroundSize: 'cover', backgroundPosition: 'center', color: '#fff', fontFamily: 'Inter, system-ui, sans-serif',
 }
-const panelWrapStyle: React.CSSProperties = { width: '100%', height: '100%', display: 'flex', justifyContent: 'flex-end',
-  paddingRight: 'clamp(28px, 6vw, 110px)', alignItems: 'center', padding: 'clamp(12px, 3vw, 42px)' }
+const panelWrapStyle: React.CSSProperties = { width: '100%', height: '100%', display: 'flex', justifyContent: 'flex-end', alignItems: 'center', padding: 'clamp(12px, 3vw, 42px)' }
 const panelStyle: React.CSSProperties = { width: 'min(430px, 100%)', borderRadius: 20, padding: 24, background: 'rgba(11,18,32,0.72)', border: '1px solid rgba(255,255,255,0.18)', backdropFilter: 'blur(8px)', boxShadow: '0 18px 45px rgba(0,0,0,.35)' }
 const iconBoxStyle: React.CSSProperties = { width: 44, height: 44, borderRadius: 12, background: '#dc2626', display: 'grid', placeItems: 'center', color: '#fff' }
 const labelStyle: React.CSSProperties = { display: 'block', marginBottom: 8, fontSize: 13 }
