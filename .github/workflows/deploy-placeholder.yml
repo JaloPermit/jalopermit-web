@@ -1,0 +1,8 @@
+name: Deploy (Placeholder)
+on:
+  workflow_dispatch:
+jobs:
+  info:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "AWS deploy workflow will be wired after IAM + infra setup."
